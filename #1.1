@@ -1,0 +1,12 @@
+def par_impar(n):
+    
+    if n % 2 == 0:
+        return "El numero es par"
+    else:
+        return "El numero es impar"
+
+numero = int(input("Ingresa un numero: "))
+resultado = par_impar(numero)
+print(resultado)
+
+# escomplejidad 0(1) ya que no importa si el numero es muy pequeño o demasiado grande el proceso va a hacer lo mismo, no va a cambiar dependiendo del valor del numero.
