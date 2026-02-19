@@ -1,0 +1,16 @@
+def numero_mayor(a, b):
+
+    if a > b:
+        return a
+        
+    else:
+        return b
+    
+a = int(input("Ingrese el primer numero:"))
+b = int(input("Ingrese el segundo numero:"))
+
+resultado = numero_mayor(a, b)
+
+print(f"El numero mayor entre {a} y {b} es: {resultado}")
+
+# este ejercio es 0(1) por que solo se hace una comparacion de dos valores no importa si son pequeños o grandes el tiempo de ejecucion va ser el mismo igual que el numero de pasos que son 2 la comparacion de los valores y el retorn del numero mayor.
